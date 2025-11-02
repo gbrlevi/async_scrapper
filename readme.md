@@ -33,9 +33,9 @@ cd async_scrapper
 
     Iniciar o contêiner do scraper, que se conectará ao banco e salvará os dados.
 
-Bash
-
+```bash
 docker-compose up
+```
 
 Você verá o script rodar e, ao final, o contêiner async_scrapper-scraper-1 sairá com "código 0" (sucesso), enquanto o contêiner async_scrapper-db-1 continuará rodando.
 
@@ -60,6 +60,6 @@ Rode a query SELECT * FROM quotes; para ver os resultados.
 5. 🛑 Parando o Ambiente
 
 Para parar e remover os contêineres e a rede criada pelo Docker Compose, rode:
-Bash
-
+```bash
 docker-compose down
+```

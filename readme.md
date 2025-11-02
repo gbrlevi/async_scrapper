@@ -24,7 +24,7 @@ Você não precisa instalar Python ou PostgreSQL na sua máquina. Apenas o **Doc
 ```bash
 git clone [https://github.com/gbrlevi/async_scrapper.git](https://github.com/gbrlevi/async_scrapper.git)
 cd async_scrapper
-
+```
 2. Execute o Docker Compose Este é o único comando necessário. Ele irá:
 
     Construir a imagem do script Python (usando o Dockerfile).
